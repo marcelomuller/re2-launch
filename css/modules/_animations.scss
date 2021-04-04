@@ -3,24 +3,6 @@
     animation: umbrella 3s infinite;
 }
 
-/* @keyframes umbrella {
-    0% {
-        -webkit-transform: rotateZ(0deg);
-    }
-
-    25% {
-        -webkit-transform: rotateZ(90deg);
-    }
-
-    50% {
-        -webkit-transform: rotateZ(180deg);
-    }
-
-    100% {
-        -webkit-transform: rotateZ(270deg);
-    }
-} */
-
 @keyframes umbrella{
     from {
       -moz-transform: rotateZ(0deg);
