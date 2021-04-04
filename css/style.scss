@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+@mixin responsive() {
+    @media screen and (max-width: 960px) {
+        @content;
+    }
+}
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+@import 'modules/colors';
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: $dark-blue;
+}
+
+img, svg {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+p {
+    font-size: 13px;
+    color: $medium-grey;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+@import 'modules/layout';
+@import 'modules/menu';
+@import 'modules/animations';

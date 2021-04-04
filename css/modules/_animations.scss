@@ -1,0 +1,36 @@
+.umbrella {
+    fill: transparent;
+    animation: umbrella 3s infinite;
+}
+
+/* @keyframes umbrella {
+    0% {
+        -webkit-transform: rotateZ(0deg);
+    }
+
+    25% {
+        -webkit-transform: rotateZ(90deg);
+    }
+
+    50% {
+        -webkit-transform: rotateZ(180deg);
+    }
+
+    100% {
+        -webkit-transform: rotateZ(270deg);
+    }
+} */
+
+@keyframes umbrella{
+    from {
+      -moz-transform: rotateZ(0deg);
+      -ms-transform: rotateZ(0deg);
+      transform: rotateZ(0deg);
+    }
+    
+    to {
+      -moz-transform: rotateZ(-360deg);
+      -ms-transform: rotateZ(-360deg);
+      transform: rotateZ(-360deg);
+    }
+  }
