@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  let tl = new TimelineMax();
+  const tl = new TimelineMax();
   
   tl.fromTo('.bg-loader', 1, 
     {height: '100%'},
